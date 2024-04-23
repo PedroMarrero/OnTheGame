@@ -1,13 +1,13 @@
-@font-face {
+/* @font-face {
     font-family: "conthrax";
     src: url(Fonts/conthrax/);
 }
 
-:root{
+:root {
     --roxo-OnTheGame: #6500FA;
 }
 
-:root{
+:root {
     --cinza-OnTheGame: #212121;
 }
 
@@ -28,7 +28,7 @@ html {
     margin: 0 auto;
 }
 
-.banner{
+.banner {
     background-color: black;
     height: 10vw;
 }
@@ -57,12 +57,9 @@ header .container-grid {
     font-size: 18px;
     font-family: 'conthrax';
 
-    color: white;
+     color: rgb(255, 3, 3); 
 
     text-decoration: underline transparent;
     text-decoration-thickness: 2px;
 }
-
-
-
-
+ */
