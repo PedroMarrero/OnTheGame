@@ -17,7 +17,7 @@
     padding: 0;
     box-sizing: border-box;
     /* background-color: var(--roxo-OnTheGame); */
-    
+
 }
 
 .container-grid {
@@ -26,27 +26,25 @@
     margin: 0 auto;
 }
 
-header{
+header {
     background-color: black;
 }
 
-
-header .container-grid{
-    height: 200px;
+header .container-grid {
+    height: 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-
-body{
+body {
     background-color: var(--roxo-OnTheGame);
 }
 
 nav.menu {
     width: 300px;
     display: flex;
-    
+
 }
 
 .menu a {
@@ -59,37 +57,35 @@ nav.menu {
 
 }
 
-.campo-pesquisa{
-    
-}
+.campo-pesquisa {}
 
-.menu-button{
+.menu-button {
     font-family: "conthrax";
     background-color: #6500FA;
     padding: 5px;
 }
 
-nav.menu{
+nav.menu {
     background-color: #6500FA;
 
     padding: 10px;
 }
 
-#sobre{
+#nos {
     font-family: "conthrax";
     font-size: 15px;
     color: white;
-    
+
     height: 700px;
     padding: 100px;
-    
+
 
     display: flex;
     text-align: center;
     justify-content: space-between;
 }
 
-#nossas-artes{
+#nossas-artes {
     font-family: "conthrax";
     font-size: 15px;
     color: white;
@@ -97,7 +93,15 @@ nav.menu{
     text-align: center;
 }
 
-#servir{
+#servir {
+    font-family: "conthrax";
+    font-size: 15px;
+    color: white;
+
+    text-align: center;
+}
+
+#sobre{
     font-family: "conthrax";
     font-size: 15px;
     color: white;
@@ -108,4 +112,22 @@ nav.menu{
 
 
 
- 
+
+footer {
+    background-color: black;
+}
+
+
+footer .container-grid {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav.menu-mais {
+    font-family: "conthrax";
+    font-size: 15px;
+    color: white;
+}
