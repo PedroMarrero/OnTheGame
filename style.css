@@ -57,12 +57,14 @@ nav.menu {
 
 }
 
-.campo-pesquisa {}
+.campo-pesquisa {
+    font-family: "conthrax";
+}
 
 .menu-button {
     font-family: "conthrax";
     background-color: #6500FA;
-    padding: 5px;
+    padding: 20px;
 }
 
 nav.menu {
@@ -91,7 +93,10 @@ nav.menu {
     color: white;
 
     text-align: center;
+    padding: 70px;
+    margin: 50px;
 }
+
 
 #servir {
     font-family: "conthrax";
@@ -99,15 +104,25 @@ nav.menu {
     color: white;
 
     text-align: center;
+    margin: 50px;
 }
 
-#sobre{
+#sobre {
     font-family: "conthrax";
     font-size: 15px;
     color: white;
 
     text-align: center;
+    margin: 50px;
 }
+
+#sobre img {
+
+    filter: opacity(70%);
+    
+
+}
+
 
 
 
