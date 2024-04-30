@@ -37,6 +37,21 @@ header .container-grid {
     align-items: center;
 }
 
+.container {
+    position: relative;
+  }
+  
+  .texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+
+    font-size: 22px;
+    text-align: center;
+  }
+
 body {
     background-color: var(--roxo-OnTheGame);
 }
@@ -54,11 +69,12 @@ nav.menu {
     color: white;
     padding: 10%;
     text-decoration-color: none;
-
 }
 
 .campo-pesquisa {
     font-family: "conthrax";
+    display: flex;
+    border-radius: 800px;
 }
 
 .menu-button {
@@ -77,6 +93,7 @@ nav.menu {
     font-family: "conthrax";
     font-size: 15px;
     color: white;
+    background-color: var(--cinza-OnTheGame);
 
     height: 700px;
     padding: 100px;
@@ -85,18 +102,20 @@ nav.menu {
     display: flex;
     text-align: center;
     justify-content: space-between;
+
 }
 
 #nossas-artes {
     font-family: "conthrax";
     font-size: 15px;
     color: white;
+    background-color: var(--cinza-OnTheGame);
 
     text-align: center;
     padding: 70px;
     margin: 50px;
+    
 }
-
 
 #servir {
     font-family: "conthrax";
@@ -111,27 +130,20 @@ nav.menu {
     font-family: "conthrax";
     font-size: 15px;
     color: white;
+    background-color: var(--cinza-OnTheGame);
 
     text-align: center;
     margin: 50px;
 }
 
 #sobre img {
-
     filter: opacity(70%);
-    
 
 }
-
-
-
-
-
 
 footer {
     background-color: black;
 }
-
 
 footer .container-grid {
     height: 150px;
