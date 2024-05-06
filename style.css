@@ -50,20 +50,31 @@ header .container-grid {
 
     font-size: 22px;
     text-align: center;
-    
+
 }
 
 body {
     background-color: var(--roxo-OnTheGame);
 }
 
-nav.menu {
-    width: 300px;
+.menu button {
+    height: 56px;
+    width: 130px;
     display: flex;
-    gap: 15px;
+
+    /* gap: 15px; */
     align-items: center;
     justify-content: center;
+    flex-direction: row;
 
+    font-family: "conthrax";
+    color: white;
+    background-color: var(--roxo-OnTheGame);
+
+}
+
+nav.menu img {
+    border-radius: 50%;
 }
 
 .menu a {
@@ -101,7 +112,7 @@ div.campo-pesquisa input {
     font-family: "conthrax";
     font-size: 15px;
     color: white;
-    
+
 
     height: 700px;
     padding: 100px;
@@ -112,18 +123,18 @@ div.campo-pesquisa input {
 
 }
 
-#nos h2{
+#nos h2 {
     background-color: #212121;
     height: 371px;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-#nos img{
-    width: 51%;   
+#nos img {
+    width: 51%;
 }
 
 #nossas-artes {
@@ -133,6 +144,7 @@ div.campo-pesquisa input {
     background-color: var(--cinza-OnTheGame);
 
     text-align: center;
+    
     padding: 70px;
     margin: 50px;
 
@@ -157,19 +169,13 @@ div.campo-pesquisa input {
     margin: 50px;
 }
 
-#sobre h2{
-   
+#sobre h2 {
+
     height: 371px;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
-    
-
-}
-
-#sobre img {
-    
 }
 
 
@@ -283,9 +289,22 @@ footer .container-grid {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    text-align: center;
+    background-color: black;
 }
 
+
 nav.menu-mais {
+    display: flex;
+
+    font-family: "conthrax";
+    font-size: 15px;
+    color: white;
+}
+
+nav.menu-mais-a {
+    display: flex;
+
     font-family: "conthrax";
     font-size: 15px;
     color: white;
