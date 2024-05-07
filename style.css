@@ -22,6 +22,8 @@
     width: 80vw;
     max-width: 1400px;
     margin: 0 auto;
+
+    
 }
 
 header {
@@ -178,7 +180,67 @@ div.campo-pesquisa input {
     justify-content: center;
 }
 
+/* cases - cases - cases - cases - cases - cases - cases - cases - */
 
+#cases-de-sucesso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 80vh;
+    
+    color: white;
+    background-color: var(--cinza-OnTheGame);
+}
+
+#cases-de-sucesso h2{
+
+}
+
+.container-grid-cases{
+    font-family: "conthrax";
+    font-size: 10px;
+}
+
+ .linha1{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+ }
+
+ .linha2{
+    display: flex;
+    flex-direction: row;
+    gap: 12%;
+ }
+
+ .linha3{
+    display: flex;
+    flex-direction: row;
+    gap: 18%;
+    padding: 50px;
+ }
+
+form {
+    height: 90vh;
+    width: 50vw;
+}
+
+form h2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+form .grid-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ .campo {
+   /* width: 80px;*/
+ }
 
 
 .campo label {
@@ -286,6 +348,7 @@ footer {
 
 footer .container-grid {
     height: 150px;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -309,3 +372,34 @@ nav.menu-mais-a {
     font-size: 15px;
     color: white;
 }
+
+.teste{
+    display: flex;
+    flex-direction: row;
+
+    gap: 20px;
+}
+
+.teste-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.siga-nos{
+    padding-bottom: 20px;
+}
+
+.menu-mais-a{
+    display: flex;
+    flex-direction: row;
+
+    gap: 20px;
+}
+
+/*teste-3{
+    display: flex;
+    flex-direction: row;
+
+    gap: 5px;
+}
+
