@@ -1,7 +1,10 @@
-@font-face {
+/* @font-face {
     font-family: "conthrax";
     src: url(Fonts/conthrax/);
-}
+} */
+
+@import url('https://fonts.cdnfonts.com/css/conthrax');
+                
 
 :root {
     --roxo-OnTheGame: #6500FA;
@@ -26,6 +29,16 @@
     
 }
 
+#Container-img {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+}
+
+#img-oQueFazemos {
+    position: fixed;
+}
+
 header {
     background-color: black;
 }
@@ -38,8 +51,13 @@ header .container-grid {
 }
 
 .container {
-    position: relative;
     display: flex;
+    align-items: center;
+}
+
+.container-geral{
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -69,7 +87,7 @@ body {
     justify-content: center;
     flex-direction: row;
 
-    font-family: "conthrax";
+    font-family: 'Conthrax', sans-serif;
     color: white;
     background-color: var(--roxo-OnTheGame);
 
@@ -81,7 +99,7 @@ nav.menu img {
 
 .menu a {
     font-size: 15px;
-    font-family: 'conthrax';
+    font-family: 'Conthrax', sans-serif;
     background-color: #6500FA;
     height: 45px;
     width: 130px;
@@ -90,11 +108,11 @@ nav.menu img {
     text-decoration-color: none;
     display: flex;
     align-items: center;
-
+    
 }
 
 div.campo-pesquisa input {
-    font-family: "conthrax";
+    font-family: 'Conthrax', sans-serif;
     display: flex;
     border-radius: 800px;
     padding: 20px;
@@ -104,7 +122,7 @@ div.campo-pesquisa input {
     background-color: #6500FA;
     height: 56px;
     width: 130px;
-    font-family: 'conthrax';
+    font-family: 'Conthrax', sans-serif;
     color: white;
     font-weight: 300;
 }
@@ -115,9 +133,7 @@ div.campo-pesquisa input {
     font-size: 15px;
     color: white;
 
-
     height: 700px;
-    padding: 100px;
 
     display: flex;
     text-align: center;
@@ -130,26 +146,34 @@ div.campo-pesquisa input {
     height: 371px;
 
     display: flex;
+    flex-direction: column;
+    
     align-items: center;
     justify-content: center;
-    flex-direction: column;
 }
 
 #nos img {
     width: 51%;
 }
 
-#nossas-artes {
+#nossas-artes {   
     font-family: "conthrax";
     font-size: 15px;
     color: white;
     background-color: var(--cinza-OnTheGame);
-
     text-align: center;
-    
     padding: 70px;
-    margin: 50px;
-
+    width: 90%;
+}
+.nossas-Arts-Distancia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    gap: 20px;
+}
+.img-nossasArts {
+    gap: 30px;
 }
 
 #servir {
@@ -162,13 +186,17 @@ div.campo-pesquisa input {
 }
 
 #sobre {
+    width: 90%;
+
+    margin-bottom: 90px;
+    
     font-family: "conthrax";
     font-size: 15px;
     color: white;
     background-color: var(--cinza-OnTheGame);
 
     text-align: center;
-    margin: 50px;
+
 }
 
 #sobre h2 {
@@ -197,28 +225,43 @@ div.campo-pesquisa input {
 
 }
 
+.Cases-centro {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8%;
+}
+
 .container-grid-cases{
     font-family: "conthrax";
     font-size: 10px;
+    margin-left: 10%;
 }
+/* 
+.Cases-texto {
+    margin-bottom: 20%;
+} */
 
  .linha1{
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 5%;
  }
 
  .linha2{
     display: flex;
     flex-direction: row;
-    gap: 12%;
+    align-items: center;
+    gap: 9.8%;
+
  }
 
  .linha3{
     display: flex;
+    align-items: center;
     flex-direction: row;
-    gap: 18%;
     padding: 50px;
+    gap: 13.3%;
  }
 
 form {
