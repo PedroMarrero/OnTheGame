@@ -11,7 +11,6 @@
     --cinza-OnTheGame: #212121;
 }
 
-
 * {
     margin: 0;
     padding: 0;
@@ -22,19 +21,36 @@
     width: 80vw;
     max-width: 1400px;
     margin: 0 auto;
-
-    
 }
 
+.container-grid img {
+    display: flex;
+}
 header {
     background-color: black;
 }
 
 header .container-grid {
     height: 150px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.texto-somos h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-family: "conthrax";
+    font-size: 20px;
+    color: white;
+    background-color: #212121;
+    border-radius: 150px;
+    width: 50%;
+    
+    margin-top: revert;
+
 }
 
 .container {
@@ -42,6 +58,7 @@ header .container-grid {
     display: flex;
     align-items: center;
 }
+
 
 .texto {
     position: absolute;
@@ -93,11 +110,17 @@ nav.menu img {
 
 }
 
-div.campo-pesquisa input {
+.campo-pesquisa input {
     font-family: "conthrax";
     display: flex;
     border-radius: 800px;
+    border: none;
     padding: 20px;
+}
+
+.menu button {
+    display: flex;
+    justify-content: center;
 }
 
 .menu-button button {
@@ -146,7 +169,7 @@ div.campo-pesquisa input {
     background-color: var(--cinza-OnTheGame);
 
     text-align: center;
-    
+
     padding: 70px;
     margin: 50px;
 
@@ -158,7 +181,39 @@ div.campo-pesquisa input {
     color: white;
 
     text-align: center;
-    margin: 50px;
+    margin: 10%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#servir h2{
+    margin-bottom: 5%;
+    background-color: #212121;
+    border: none;
+    border-radius: 50px;
+    padding: 2%;
+    padding-top: 2%;
+    width: 550px;
+    display: flex   ;
+    justify-content: center;
+
+}
+
+.texto1{
+    position: absolute;
+    margin-top: 0.5%;
+    padding: 100px;
+    display: flex;
+    
+}
+
+.texto2{
+    position: absolute;
+    margin-top: 0.5%;
+    padding: 130px;
+    display: flex;
+    
 }
 
 #sobre {
@@ -169,7 +224,10 @@ div.campo-pesquisa input {
 
     text-align: center;
     margin: 50px;
+    position: relative;
 }
+
+
 
 #sobre h2 {
 
@@ -182,65 +240,94 @@ div.campo-pesquisa input {
 
 /* cases - cases - cases - cases - cases - cases - cases - cases - */
 
-#cases-de-sucesso{
+#cases-de-sucesso {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     height: 80vh;
-    
+
     color: white;
-    background-color: var(--cinza-OnTheGame);
 }
 
-#cases-de-sucesso h2{
 
-}
-
-.container-grid-cases{
+.container-grid-cases {
     font-family: "conthrax";
     font-size: 10px;
 }
 
- .linha1{
+.container-grid-cases h2 {
+    background-color: var(--cinza-OnTheGame);
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15%;
+    padding: 50px;
+}
+
+.linha1 {
     display: flex;
     flex-direction: row;
     gap: 5%;
- }
+    align-items: center;
+    background-color: var(--cinza-OnTheGame);
+}
 
- .linha2{
+.linha1 img {
+    display: flex;
+    padding: 50px;
+    align-content: center;
+}
+
+.linha2 {
     display: flex;
     flex-direction: row;
     gap: 12%;
- }
+    padding: 100px;
 
- .linha3{
+    background-color: var(--cinza-OnTheGame);
+}
+
+.linha2 img {
+    display: flex;
+
+    width: 500px;
+}
+
+.linha3 {
     display: flex;
     flex-direction: row;
     gap: 18%;
     padding: 50px;
- }
+
+    background-color: var(--cinza-OnTheGame);
+}
+
+.linha3 img {
+    display: flex;
+    gap: 500px;
+    width: 500px;
+}
+
+
+
 
 form {
+    margin-top: 10%;
     height: 90vh;
     width: 50vw;
 }
 
-form h2{
+form h2 {
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-form .grid-form{
+form .grid-form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
- .campo {
-   /* width: 80px;*/
- }
 
 
 .campo label {
@@ -330,7 +417,7 @@ form .grid-form{
     justify-content: center;
     text-align: center;
     margin: 50px;
-}
+    }
 
 form button {
     height: 30px;
@@ -373,23 +460,23 @@ nav.menu-mais-a {
     color: white;
 }
 
-.teste{
+.teste {
     display: flex;
     flex-direction: row;
 
     gap: 20px;
 }
 
-.teste-2{
+.teste-2 {
     display: flex;
     flex-direction: column;
 }
 
-.siga-nos{
+.siga-nos {
     padding-bottom: 20px;
 }
 
-.menu-mais-a{
+.menu-mais-a {
     display: flex;
     flex-direction: row;
 
@@ -402,4 +489,3 @@ nav.menu-mais-a {
 
     gap: 5px;
 }
-
