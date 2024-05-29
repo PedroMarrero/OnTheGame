@@ -38,6 +38,11 @@ header .container-grid {
     align-items: center;
 }
 
+.texto-somos{
+    display: flex;
+    margin: auto
+}
+
 .texto-somos h2{
     display: flex;
     justify-content: center;
@@ -250,76 +255,57 @@ nav.menu img {
     color: white;
 }
 
+p.onthegame{
+    position: absolute;
+    display: flex;
+}
 
-.container-grid-cases {
-    font-family: "conthrax";
-    font-size: 10px;
+p.onthegame2{
+    position: absolute;
+    display: flex;
+    margin: 13vh;
 }
 
 .container-grid-cases h2 {
     background-color: var(--cinza-OnTheGame);
     text-align: center;
-    font-size: 20px;
     margin-top: 15%;
     padding: 50px;
+    border-radius: 50px;
+    margin-top: 20%;
+    margin-bottom: 2.3%;
 }
 
-.linha1 {
+div.container-grid-cases{
+    
+    font-family: "conthrax";
+    color: white;
+    font-size: 12px;
     display: flex;
-    flex-direction: row;
-    gap: 5%;
-    align-items: center;
-    background-color: var(--cinza-OnTheGame);
-}
-
-.linha1 img {
-    display: flex;
-    padding: 50px;
-    align-content: center;
-}
-
-.linha2 {
-    display: flex;
-    flex-direction: row;
-    gap: 12%;
-    padding: 100px;
-
-    background-color: var(--cinza-OnTheGame);
-}
-
-.linha2 img {
-    display: flex;
-
-    width: 500px;
-}
-
-.linha3 {
-    display: flex;
-    flex-direction: row;
-    gap: 18%;
-    padding: 50px;
+    flex-direction:column;
+    gap: 12%;    
+    /* padding: 100px; */
+    width: 90.5vw;
+    
+    text-align: center;
+    margin-bottom: 50%;
 
     background-color: var(--cinza-OnTheGame);
 }
 
-.linha3 img {
+div.container-grid-cases img{
+    height: 100px;
+    width: 50%;
     display: flex;
-    gap: 500px;
-    width: 500px;
-}
-
-
-
-
-form {
-    margin-top: 10%;
-    height: 90vh;
-    width: 50vw;
+    margin-left: 23vw;
+    margin-top: 14vh;
+    
 }
 
 form h2 {
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-top: 50px;
 }
 
 form .grid-form {
@@ -328,7 +314,6 @@ form .grid-form {
     justify-content: center;
     align-items: center;
 }
-
 
 .campo label {
     text-align: left;
@@ -417,6 +402,7 @@ form .grid-form {
     justify-content: center;
     text-align: center;
     margin: 50px;
+    margin-top: 50px ;
     }
 
 form button {
@@ -435,6 +421,7 @@ footer {
 
 footer .container-grid {
     height: 150px;
+    margin-top: 60%;
 
     display: flex;
     align-items: center;
