@@ -8,7 +8,7 @@
 }
 
 :root {
-    --cinza-OnTheGame: #212121;
+    /* --cinza-OnTheGame: #212121; */
 }
 
 * {
@@ -40,21 +40,22 @@ header .container-grid {
 
 .texto-somos{
     display: flex;
-    margin: auto
+    margin: auto;
+    justify-content: center;
 }
 
 .texto-somos h2{
     display: flex;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 37px;
     font-family: "conthrax";
     font-size: 20px;
     color: white;
     background-color: #212121;
     border-radius: 150px;
     width: 50%;
-    
-    margin-top: revert;
+    margin-top: 30px;
+    height: 12vh;
 
 }
 
@@ -225,7 +226,7 @@ nav.menu img {
     font-family: "conthrax";
     font-size: 15px;
     color: white;
-    background-color: var(--cinza-OnTheGame);
+    /* background-color: var(--cinza-OnTheGame); */
 
     text-align: center;
     margin: 50px;
@@ -250,9 +251,13 @@ nav.menu img {
     align-items: center;
     justify-content: center;
 
-    height: 80vh;
-
     color: white;
+    
+    margin-top: 80%;
+    margin-bottom: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 50px;
 }
 
 p.onthegame{
@@ -284,7 +289,7 @@ div.container-grid-cases{
     display: flex;
     flex-direction:column;
     gap: 12%;    
-    /* padding: 100px; */
+    
     width: 90.5vw;
     
     text-align: center;
@@ -293,14 +298,60 @@ div.container-grid-cases{
     background-color: var(--cinza-OnTheGame);
 }
 
-div.container-grid-cases img{
-    height: 100px;
-    width: 50%;
+img.img1{
+    height: 90px;
+    width: 20%;
     display: flex;
-    margin-left: 23vw;
+    margin-left: 36vw;
     margin-top: 14vh;
-    
 }
+
+img.img2{
+    height: 90px;
+    width: 30%;
+    display: flex;
+    margin-left: 34vw;
+    margin-top: 14vh;
+}
+
+img.img3{
+    height: 80px;
+    width: 20%;
+    display: flex;
+    margin-left: 36.9vw;
+    margin-top: 14vh;
+}
+
+.texto-img1{
+    border-radius: 100px;
+    width: 80%;
+    margin: 100px;
+    background-color: #212121;
+    height: 160px;
+    padding: 10vh;
+    margin-left: 150px;
+}
+
+.texto-img2{
+    border-radius: 100px;
+    width: 80%;
+    margin: 100px;
+    background-color: #212121;
+    height: 160px;
+    padding: 10vh;
+    margin-left: 150px;
+}
+
+.texto-img3{
+    border-radius: 100px;
+    width: 80%;
+    margin: 100px;
+    background-color: #212121;
+    height: 160px;
+    padding: 10vh;
+    margin-left: 150px;
+}
+
 
 form h2 {
     padding-top: 50px;
@@ -313,6 +364,7 @@ form .grid-form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .campo label {
@@ -396,13 +448,15 @@ form .grid-form {
     font-family: "conthrax";
     font-size: 15px;
     color: white;
-    background-color: var(--cinza-OnTheGame);
+    background-color:#212121;
+    
 
     display: flex;
     justify-content: center;
     text-align: center;
     margin: 50px;
-    margin-top: 50px ;
+    height: 105vh;
+    
     }
 
 form button {
