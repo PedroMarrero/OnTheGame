@@ -54,7 +54,7 @@ header .container-grid {
     background-color: #212121;
     border-radius: 150px;
     width: 50%;
-    margin-top: 30px;
+    margin-top: 150px;
     height: 12vh;
 
 }
@@ -82,15 +82,36 @@ body {
     background-color: var(--roxo-OnTheGame);
 }
 
-.menu button {
-    height: 56px;
-    width: 130px;
+nav.menu {
     display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
 
-    /* gap: 15px; */
+.sobre-button {
+    
+    display: flex;
+    width: 10vw;
+    height: 10vh;
+    
     align-items: center;
     justify-content: center;
-    flex-direction: row;
+    border: none;
+    flex-wrap: nowrap;
+
+    font-family: "conthrax";
+    color: white;
+    background-color: var(--roxo-OnTheGame);
+}
+
+.trabalhos-button {
+    display: flex;
+    width: 10vw;
+    height: 10vh;
+    
+    align-items: center;
+    justify-content: center;
+    border: none;
 
     font-family: "conthrax";
     color: white;
@@ -98,23 +119,7 @@ body {
 
 }
 
-nav.menu img {
-    border-radius: 50%;
-}
 
-.menu a {
-    font-size: 15px;
-    font-family: 'conthrax';
-    background-color: #6500FA;
-    height: 45px;
-    width: 130px;
-    color: white;
-    padding: 10%;
-    text-decoration-color: none;
-    display: flex;
-    align-items: center;
-
-}
 
 .campo-pesquisa input {
     font-family: "conthrax";
@@ -122,20 +127,6 @@ nav.menu img {
     border-radius: 800px;
     border: none;
     padding: 20px;
-}
-
-.menu button {
-    display: flex;
-    justify-content: center;
-}
-
-.menu-button button {
-    background-color: #6500FA;
-    height: 56px;
-    width: 130px;
-    font-family: 'conthrax';
-    color: white;
-    font-weight: 300;
 }
 
 
@@ -168,17 +159,25 @@ nav.menu img {
     width: 51%;
 }
 
-#nossas-artes {
+#nossas-artes h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 37px;
     font-family: "conthrax";
-    font-size: 15px;
+    font-size: 20px;
     color: white;
-    background-color: var(--cinza-OnTheGame);
+    background-color: #212121;
+    border-radius: 150px;
+    width: 50%;
+    margin-top: 150px;  
+    margin-bottom: 150px;
+    margin-left: 21vw;
+    height: 12vh;
+    
+}
 
-    text-align: center;
-
-    padding: 70px;
-    margin: 50px;
-
+#nossas-artes {
+    margin-left: 7.9vw;
 }
 
 #servir {
@@ -455,7 +454,7 @@ form .grid-form {
     justify-content: center;
     text-align: center;
     margin: 50px;
-    height: 105vh;
+    height: 145vh;
     
     }
 
@@ -466,8 +465,8 @@ form button {
     border-radius: 50px;
     font-family: "conthrax";
     color: #cd6fff;
+    border: none;
 }
-
 
 footer {
     background-color: black;
