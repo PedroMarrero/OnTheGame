@@ -17,25 +17,14 @@
     box-sizing: border-box;
 }
 
-.container-grid {
-    width: 80vw;
-    max-width: 1400px;
-    margin: 0 auto;
+img.logobranca{
+   display: flex;
+   margin-top: 35px;
 }
 
-.container-grid img {
-    display: flex;
-}
+
 header {
     background-color: black;
-}
-
-header .container-grid {
-    height: 150px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .texto-somos{
@@ -56,7 +45,6 @@ header .container-grid {
     width: 50%;
     margin-top: 150px;
     height: 12vh;
-
 }
 
 .container {
@@ -64,7 +52,6 @@ header .container-grid {
     display: flex;
     align-items: center;
 }
-
 
 .texto {
     position: absolute;
@@ -75,7 +62,7 @@ header .container-grid {
 
     font-size: 22px;
     text-align: center;
-
+    
 }
 
 body {
@@ -98,7 +85,7 @@ nav.menu {
     justify-content: center;
     border: none;
     flex-wrap: nowrap;
-
+    
     font-family: "conthrax";
     color: white;
     background-color: var(--roxo-OnTheGame);
@@ -112,11 +99,11 @@ nav.menu {
     align-items: center;
     justify-content: center;
     border: none;
-
+    
     font-family: "conthrax";
     color: white;
     background-color: var(--roxo-OnTheGame);
-
+    
 }
 
 
@@ -134,21 +121,21 @@ nav.menu {
     font-family: "conthrax";
     font-size: 15px;
     color: white;
-
-
+    
+    
     height: 700px;
     padding: 100px;
-
+    
     display: flex;
     text-align: center;
     justify-content: space-between;
-
+    
 }
 
 #nos h2 {
     background-color: #212121;
     height: 371px;
-
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -162,17 +149,20 @@ nav.menu {
 #nossas-artes h2{
     display: flex;
     justify-content: center;
+    height: 12vh;
+    width: 800px;
+    
+    margin-top: 20%;
+    margin-bottom: 9%;
+    margin-left: 16%;
+    margin-right: 19%;
     padding-top: 37px;
+    border-radius: 150px;
+
     font-family: "conthrax";
     font-size: 20px;
     color: white;
     background-color: #212121;
-    border-radius: 150px;
-    width: 50%;
-    margin-top: 150px;  
-    margin-bottom: 150px;
-    margin-left: 21vw;
-    height: 12vh;
     
 }
 
@@ -180,46 +170,57 @@ nav.menu {
     margin-left: 7.9vw;
 }
 
-#servir {
+.servir-textos{
+    background-color: #212121; 
+    margin-top: 15vh;
+    border-radius: 100px;
+    height: 19vh;
+}
+
+.texto-servir1 {
     font-family: "conthrax";
     font-size: 15px;
     color: white;
-
-    text-align: center;
-    margin: 10%;
+    
     display: flex;
     justify-content: center;
-    position: relative;
+    text-align: center;
+    
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.texto-servir2 {
+    font-family: "conthrax";
+    font-size: 15px;
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    
+    text-align: center;
 }
 
 #servir h2{
-    margin-bottom: 5%;
-    background-color: #212121;
-    border: none;
-    border-radius: 50px;
-    padding: 2%;
-    padding-top: 2%;
-    width: 550px;
-    display: flex   ;
+    display: flex;
     justify-content: center;
+    height: 13vh;
+    width: 850px;
+    
+    margin-top: 20%;
+    margin-bottom: 2.3%;
+    margin-left: 20%;
+    margin-right: 19%;
+    padding-top: 37px;
+    border-radius: 150px;
 
-}
-
-.texto1{
-    position: absolute;
-    margin-top: 0.5%;
-    padding: 100px;
-    display: flex;
+    font-family: "conthrax";
+    font-size: 20px;
+    color: white;
+    background-color: #212121;
     
 }
 
-.texto2{
-    position: absolute;
-    margin-top: 0.5%;
-    padding: 130px;
-    display: flex;
-    
-}
 
 #sobre {
     font-family: "conthrax";
@@ -235,9 +236,9 @@ nav.menu {
 
 
 #sobre h2 {
-
+    
     height: 371px;
-
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -249,7 +250,7 @@ nav.menu {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    
     color: white;
     
     margin-top: 80%;
@@ -268,33 +269,6 @@ p.onthegame2{
     position: absolute;
     display: flex;
     margin: 13vh;
-}
-
-.container-grid-cases h2 {
-    background-color: var(--cinza-OnTheGame);
-    text-align: center;
-    margin-top: 15%;
-    padding: 50px;
-    border-radius: 50px;
-    margin-top: 20%;
-    margin-bottom: 2.3%;
-}
-
-div.container-grid-cases{
-    
-    font-family: "conthrax";
-    color: white;
-    font-size: 12px;
-    display: flex;
-    flex-direction:column;
-    gap: 12%;    
-    
-    width: 90.5vw;
-    
-    text-align: center;
-    margin-bottom: 50%;
-
-    background-color: var(--cinza-OnTheGame);
 }
 
 img.img1{
@@ -351,6 +325,56 @@ img.img3{
     margin-left: 150px;
 }
 
+.container-grid {
+    width: 80vw;
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.container-grid-cases{
+    
+    font-family: "conthrax";
+    color: white;
+    font-size: 12px;
+    display: flex;
+    flex-direction:column;
+    gap: 12%;    
+    
+    width: 90.5vw;
+    
+    text-align: center;
+    margin-bottom: 50%;
+
+    background-color: var(--cinza-OnTheGame);
+}
+
+.casesh2{
+    display: flex;
+    justify-content: center;
+    height: 12vh;
+    width: 850px;
+    
+    margin-top: 20%;
+    margin-bottom: 2.3%;
+    margin-left: 20%;
+    margin-right: 19%;
+    padding-top: 37px;
+    border-radius: 150px;
+
+    font-family: "conthrax";
+    font-size: 20px;
+    color: white;
+    background-color: #212121;
+}
+
+.container-grid img {
+    display: flex;
+}
 
 form h2 {
     padding-top: 50px;
@@ -453,7 +477,7 @@ form .grid-form {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin: 50px;
+    margin: 100px;
     height: 145vh;
     
     }
